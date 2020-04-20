@@ -5,4 +5,4 @@ RewriteRule ^(.*)$ $1.php
 
 RewriteRule ^(.*)/utama.php /$1/ [R]
 
-Redirect /hello-world/utama /hello-world/
+Redirect /prasidyo.herokuapp.com/utama /prasidyo.herokuapp.com
