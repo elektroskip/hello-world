@@ -1,1 +1,1 @@
-RewriteRule ^(.*)/utama.html /$1/ [R]
+RewriteRule ^(.*)/utama.php /$1/ [R]
