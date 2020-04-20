@@ -1,8 +1,1 @@
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
-
-RewriteRule ^(.*)/utama.php /$1/ [R]
-
-Redirect /utama /
+RewriteRule ^(.*)/utama.html /$1/ [R]
